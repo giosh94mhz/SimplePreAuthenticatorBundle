@@ -1,0 +1,23 @@
+{
+    "name": "giosh94mhz/simple-pre-authenticator-bundle",
+    "description": "Backport of Symfony 2.4 SimplePreAuthenticatorInterface to 2.3 LTS branch",
+    "require": {
+        "symfony/framework-bundle": "<2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgio Premi",
+            "email": "giosh94mhz@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload" : {
+        "psr-0": { "Giosh94mhz\\SimplePreAuthenticatorBundle": "" },
+        "classmap" : [
+            "Security/",
+            "DependencyInjection/SimplePreAuthenticationFactory.php"
+        ]
+    },
+    "target-dir": "Giosh94mhz/SimplePreAuthenticatorBundle"
+}
