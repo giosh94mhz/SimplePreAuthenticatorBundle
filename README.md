@@ -1,4 +1,4 @@
-simple-pre-authenticator-bundle
+SimplePreAuthenticatorBundle
 ==============
 
 Backport of Symfony 2.4 SimplePreAuthenticatorInterface to 2.3 LTS branch
